@@ -45,7 +45,10 @@ A empresa AluraGeek está precisando trazer mais clientes e aumentar suas vendas
   
 
 <p align="left">
-  💻<strong> Skills:</strong>  HTML | CSS | JS
+  💻<strong> Skills:</strong>  
+ <img align="center" alt="Celso-HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+ <img align="center" alt="Celso-CSS"  src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+ <img align="center" alt="Celso-Js" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </p>
 
 <p align="left">
@@ -53,6 +56,5 @@ A empresa AluraGeek está precisando trazer mais clientes e aumentar suas vendas
 </p>
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/celso-henrique-da-silva-lacerda-front-end/" alt="Linkedin">
-  <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=LINK-DO-SEU-LINKEDIN" /></a>
+  <a href="https://www.linkedin.com/in/celso-henrique-da-silva-lacerda-front-end/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 </p>
