@@ -56,7 +56,6 @@ header{
 
 input::placeholder, textarea::placeholder{
   color: var(--input-placeholder);
-  padding: 0.75em 1em;
 }
 
 button{
@@ -69,4 +68,44 @@ button{
   color: var(--texto-azul);
   height: 52px;
   width: 182px;
+}
+
+/* Banner Area
+========================================================================== */
+.banner{
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 352px;
+}
+
+.banner__titulo{
+  color: var(--texto-branco);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 2em 9.5em;
+}
+
+.banner__titulo h1{
+  font-size: 3.25em;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.banner__titulo h4{
+  font-size: 1.375em;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.banner__titulo button{
+  background-color: var(--texto-azul);
+  border: none;
+  color: var(--texto-branco);
+  font-size: 1em;
+  font-weight: 400;
+  height: 51px;
+  width: 130px;
 }
