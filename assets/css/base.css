@@ -1,10 +1,6 @@
-/* Font import */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
-
 /* Reset */
 *{
   box-sizing: border-box;
-  font-family: 'Raleway' sans-serif;
   margin: 0;
   outline: none;
   padding: 0;
