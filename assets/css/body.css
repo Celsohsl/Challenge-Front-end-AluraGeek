@@ -6,6 +6,7 @@ body{
   font-family: "Raleway", sans-serif;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  background: var(--produtos-bg);
 }
 /* Nav Search
 ========================================================================== */
@@ -56,6 +57,10 @@ header{
 
 input::placeholder, textarea::placeholder{
   color: var(--input-placeholder);
+}
+
+a{
+  text-decoration: none;
 }
 
 button{
@@ -109,3 +114,56 @@ button{
   height: 51px;
   width: 130px;
 }
+
+/* Produtos: Star Wars, Consoles, Diversos
+========================================================================== */
+.todos-produtos{
+  display: flex;
+  flex-direction: column;
+}
+
+.produtos__titulo{ 
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 64px 152px 16px;
+}
+
+.produtos__titulo p{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.produtos__link p{
+  color: var(--texto-azul);
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.produtos__link img{
+  margin-left: 0.75em;
+}
+
+.produtos{
+  display: flex;
+  justify-content: center;
+}
+
+.produto__info{
+  line-height: 1.8;
+}
+.produto__descricao{
+  font-weight: 500;
+}
+
+.produto__preco{
+  font-weight: bold;
+}
+
+.produto__link{
+  color: var(--texto-azul);
+  font-weight: bold;
+}
+
+/* Contato
+========================================================================== */
