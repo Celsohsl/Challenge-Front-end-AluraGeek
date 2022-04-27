@@ -38,7 +38,7 @@ header{
 
 .busca__logo p{
   font-size: 1.125rem;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .busca__logo input{
@@ -60,11 +60,21 @@ input::placeholder, textarea::placeholder{
 }
 
 a{
+  color: var(--texto-preto);
+  font-weight: 500;
+  margin-bottom: 24px;
   text-decoration: none;
 }
 
 button{
+  background-color: var(--texto-azul);
+  border: none;
   cursor: pointer;
+  color: var(--texto-branco);
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  height: 51px;
 }
 
 .login button{
@@ -106,12 +116,6 @@ button{
 }
 
 .banner__titulo button{
-  background-color: var(--texto-azul);
-  border: none;
-  color: var(--texto-branco);
-  font-size: 1em;
-  font-weight: 400;
-  height: 51px;
   width: 130px;
 }
 
@@ -167,3 +171,77 @@ button{
 
 /* Contato
 ========================================================================== */
+.contato{
+  background: var(--bg-contato);
+  display: flex;
+  height: 368px;
+  justify-content: space-between;
+  padding: 4em 9.5em;
+}
+
+.contato__logo{
+  align-items: center;
+  display: flex;
+  height: 50px;
+}
+
+.contato__texto{
+  color: var(--texto-azul);
+  padding-left: 0.313em;
+}
+
+.contato__logo p{
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.contato__links{
+  color: var(--texto-preto);
+  display: flex;
+  flex-direction: column;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.form p{
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.input-nome{
+  border: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  height: 56px;
+  margin-bottom: 1em;
+  padding-left: 1em;
+}
+
+.form textarea{
+  border: none;
+  font-family: "Raleway";
+  font-weight: 400;
+  height: 82px;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+.form button{
+  width: 165px;
+}
+
+/* Rodapé
+========================================================================== */
+footer{
+  align-items: center;
+  background: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  height: 102px;
+  justify-content: center;
+}
