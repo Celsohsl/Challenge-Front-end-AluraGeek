@@ -6,6 +6,7 @@
 ========================================================================== */
 @import url(login.css);
 @import url(produtos-similares.css);
+@import url(todos-produtos.css);
 
 body{
   color: var(--texto-preto);
@@ -147,11 +148,15 @@ button{
   flex-direction: column;
 }
 
+.produtos__titulo:first-child{
+  margin-top: 4rem;
+}
+
 .produtos__titulo{ 
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin: 64px 152px 16px;
+  margin: 0 9.5rem 1rem;
 }
 
 .produtos__titulo p{
@@ -172,6 +177,7 @@ button{
 .produtos{
   display: flex;
   justify-content: center;
+  margin-bottom: 4rem;
 }
 
 .produto__info{
