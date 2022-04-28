@@ -5,6 +5,7 @@
 /* Css Import
 ========================================================================== */
 @import url(login.css);
+@import url(produtos-similares.css);
 
 body{
   color: var(--texto-preto);
@@ -72,9 +73,12 @@ input::placeholder, textarea::placeholder{
   transition: 0.5s; 
 } */
 
-
 input:focus, .form textarea:focus{
   border-bottom: 1px solid var(--texto-azul);
+}
+
+.busca__logo input:focus{
+  border-bottom: none;
 }
 
 a{
@@ -99,7 +103,6 @@ button{
   background: transparent;
   border: 1px solid var(--texto-azul);
   color: var(--texto-azul);
-  height: 52px;
   width: 182px;
 }
 
