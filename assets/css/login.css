@@ -1,0 +1,34 @@
+/* Login 
+========================================================================== */
+.login-area{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 473px;
+}
+
+.form-login{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.form-login p{
+  font-size: 1.125em;
+  font-weight: bold;
+  margin-bottom: 2.375em;
+}
+
+.input-email, .input-password{
+  border: none;
+  height: 63px;
+  margin-bottom: 1.539rem;
+  padding: 1em;
+  width: 423px;
+}
+
+.form-login button{
+  font-size: 1.125em;
+  font-weight: 500;
+  height: 62px;
+}

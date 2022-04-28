@@ -1,5 +1,10 @@
-/* Font import */
+/* Fontes Import
+========================================================================== */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+/* Css Import
+========================================================================== */
+@import url(login.css);
 
 body{
   color: var(--texto-preto);
@@ -57,6 +62,19 @@ header{
 
 input::placeholder, textarea::placeholder{
   color: var(--input-placeholder);
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* input:focus::placeholder{
+  font-size: 1.2rem;
+  transition: 0.5s; 
+} */
+
+
+input:focus, .form textarea:focus{
+  border-bottom: 1px solid var(--texto-azul);
 }
 
 a{
@@ -214,17 +232,13 @@ button{
 
 .input-nome{
   border: none;
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
   height: 56px;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
   padding-left: 1em;
 }
 
 .form textarea{
   border: none;
-  font-family: "Raleway";
-  font-weight: 400;
   height: 82px;
   margin-bottom: 1em;
   padding: 1em;
