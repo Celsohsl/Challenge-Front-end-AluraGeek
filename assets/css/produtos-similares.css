@@ -3,7 +3,7 @@
 .produto-detalhes{
   align-items: center;
   display: flex;
-  padding: 64px 152px 0;
+  padding: 4rem 9.5rem;
 }
 
 .detalhes{
@@ -21,4 +21,10 @@
 
 .detalhes .produto__preco{
   line-height: 2;
+}
+
+/* Todos os produtos
+========================================================================== */
+.produtos__titulo button{
+  width: 164px;
 }
