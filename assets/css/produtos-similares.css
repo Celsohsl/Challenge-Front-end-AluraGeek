@@ -1,0 +1,24 @@
+/* Produtos similares
+========================================================================== */
+.produto-detalhes{
+  align-items: center;
+  display: flex;
+  padding: 64px 152px 0;
+}
+
+.detalhes{
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  justify-content: center;
+  width: 560px;
+}
+
+.detalhes h2{
+  font-size: 3.25em;
+  font-weight: 500;
+}
+
+.detalhes .produto__preco{
+  line-height: 2;
+}
