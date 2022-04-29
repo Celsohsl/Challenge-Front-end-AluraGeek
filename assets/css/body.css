@@ -7,6 +7,7 @@
 @import url(login.css);
 @import url(produtos-similares.css);
 @import url(todos-produtos.css);
+@import url(adicionar-produto.css);
 
 body{
   color: var(--texto-preto);
@@ -74,7 +75,7 @@ input::placeholder, textarea::placeholder{
   transition: 0.5s; 
 } */
 
-input:focus, .form textarea:focus{
+input:focus, textarea:focus{
   border-bottom: 1px solid var(--texto-azul);
 }
 
@@ -231,7 +232,7 @@ button{
 .form{
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 560px;
 }
 
 .form p{
@@ -246,7 +247,7 @@ button{
   padding-left: 1em;
 }
 
-.form textarea{
+textarea{
   border: none;
   height: 82px;
   margin-bottom: 1em;
