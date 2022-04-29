@@ -1,0 +1,45 @@
+/* Adicionar Produtos
+========================================================================== */
+.login-admin{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.form-admin{
+  display: flex;
+  flex-direction: column;
+  width: 560px;
+}
+.form-admin p{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.imagem-area{
+  align-items: center;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.imagem{
+  align-items: center;
+  background-color: var(--bg-color);
+  border: 1px dashed;
+  color: var(--input-placeholder);
+  height: 152px;
+  text-align: center;
+  width: 282px;
+}
+
+.imagem-area p{
+  font-weight: 400;
+  padding: 0.5rem;
+}
+
+ .btn__imagem{
+  background: transparent;
+  border: 1px solid var(--texto-azul);
+  color: var(--texto-azul);
+  width: 239px;
+}
