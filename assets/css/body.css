@@ -9,6 +9,8 @@
 @import url(todos-produtos.css);
 @import url(adicionar-produto.css);
 
+/* Estilos Padrão
+========================================================================== */
 body{
   color: var(--texto-preto);
   font-family: "Raleway", sans-serif;
@@ -16,6 +18,32 @@ body{
   scroll-behavior: smooth;
   background: var(--produtos-bg);
 }
+
+input, textarea{
+  border: none;
+}
+
+input::placeholder, textarea::placeholder{
+  color: var(--input-placeholder);
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+input:focus, textarea:focus{
+  border-bottom: 1px solid var(--texto-azul);
+}
+
+textarea{
+  height: 82px;
+  margin-bottom: 1em;
+  padding: 1rem 0.75rem;
+}
+
+p, h1, h4{
+  font-weight: bold;
+}
+
 /* Nav Search
 ========================================================================== */
 header{
@@ -46,7 +74,6 @@ header{
 
 .busca__logo p{
   font-size: 1.125rem;
-  font-weight: bold;
 }
 
 .busca__logo input{
@@ -55,7 +82,6 @@ header{
   background-position: right;
   background-position-x: 360px;
   background-color: var(--input-busca-bg);
-  border: none;
   border-radius: 20px;
   height: 40px;
   margin-left: 2em;
@@ -63,21 +89,10 @@ header{
   width: 393px;
 }
 
-input::placeholder, textarea::placeholder{
-  color: var(--input-placeholder);
-  font-family: "Raleway", sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-}
-
 /* input:focus::placeholder{
   font-size: 1.2rem;
   transition: 0.5s; 
 } */
-
-input:focus, textarea:focus{
-  border-bottom: 1px solid var(--texto-azul);
-}
 
 .busca__logo input:focus{
   border-bottom: none;
@@ -96,7 +111,7 @@ button{
   cursor: pointer;
   color: var(--texto-branco);
   font-family: "Raleway", sans-serif;
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: 400;
   height: 51px;
 }
@@ -128,13 +143,11 @@ button{
 
 .banner__titulo h1{
   font-size: 3.25em;
-  font-weight: bold;
   margin-bottom: 1rem;
 }
 
 .banner__titulo h4{
   font-size: 1.375em;
-  font-weight: bold;
   margin-bottom: 1rem;
 }
 
@@ -162,13 +175,11 @@ button{
 
 .produtos__titulo p{
   font-size: 2em;
-  font-weight: bold;
 }
 
 .produtos__link p{
   color: var(--texto-azul);
   font-size: 1em;
-  font-weight: bold;
 }
 
 .produtos__link img{
@@ -220,7 +231,6 @@ button{
 
 .contato__logo p{
   font-size: 1.125rem;
-  font-weight: bold;
 }
 
 .contato__links{
@@ -236,22 +246,13 @@ button{
 }
 
 .form p{
-  font-weight: bold;
   margin-bottom: 0.5em;
 }
 
 .input-nome{
-  border: none;
   height: 56px;
   margin-bottom: 1rem;
-  padding-left: 1em;
-}
-
-textarea{
-  border: none;
-  height: 82px;
-  margin-bottom: 1em;
-  padding: 1em;
+  padding: 0.5rem 0.75rem;
 }
 
 .form button{
