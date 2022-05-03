@@ -4,6 +4,7 @@
 
 /* Css Import
 ========================================================================== */
+@import url(base.css);
 @import url(login.css);
 @import url(produtos-similares.css);
 @import url(todos-produtos.css);
@@ -12,11 +13,11 @@
 /* Estilos Padrão
 ========================================================================== */
 body{
+  background: var(--produtos-bg);
   color: var(--texto-preto);
   font-family: "Raleway", sans-serif;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  background: var(--produtos-bg);
 }
 
 input, textarea{
@@ -53,7 +54,8 @@ header{
 .busca{
   align-items: center;
   display: flex;
-  padding: 2.344em 9.5em;
+  height: 115px;
+  padding: 0 6.5em;
 }
 
 .busca__logo{
@@ -77,9 +79,7 @@ header{
 }
 
 .busca__logo input{
-  background-image: url(../images/lupa.png);
-  background-repeat: no-repeat;
-  background-position: right;
+  background: url('../images/lupa.png') no-repeat right;
   background-position-x: 360px;
   background-color: var(--input-busca-bg);
   border-radius: 20px;
@@ -88,11 +88,6 @@ header{
   padding-left: 1em;
   width: 393px;
 }
-
-/* input:focus::placeholder{
-  font-size: 1.2rem;
-  transition: 0.5s; 
-} */
 
 .busca__logo input:focus{
   border-bottom: none;
@@ -126,9 +121,7 @@ button{
 /* Banner Area
 ========================================================================== */
 .banner{
-  background-image: url(../images/banner.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url('../images/banner.png') center / cover no-repeat;
   display: flex;
   height: 352px;
 }
@@ -138,7 +131,7 @@ button{
   display: flex;
   flex-direction: column;
   justify-content: end;
-  padding: 2em 9.5em;
+  padding: 2em 6.5em;
 }
 
 .banner__titulo h1{
@@ -170,7 +163,7 @@ button{
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin: 0 9.5rem 1rem;
+  padding: 0 6.5rem 1rem;
 }
 
 .produtos__titulo p{
@@ -188,19 +181,19 @@ button{
 
 .produtos{
   display: flex;
-  justify-content: center;
-  margin-bottom: 4rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 6.5rem 4rem;
 }
 
-.produto__info{
-  line-height: 1.8;
+.produto__info p{
+  margin-bottom: 0.5rem;
 }
+
 .produto__descricao{
+  font-size: 0.875rem;
   font-weight: 500;
-}
-
-.produto__preco{
-  font-weight: bold;
+  margin: 0.5rem 0;
 }
 
 .produto__link{
@@ -215,7 +208,7 @@ button{
   display: flex;
   height: 368px;
   justify-content: space-between;
-  padding: 4em 9.5em;
+  padding: 4em 6.5em;
 }
 
 .contato__logo{
@@ -269,4 +262,8 @@ footer{
   font-weight: 500;
   height: 102px;
   justify-content: center;
+}
+
+footer p {
+  font-weight: 500;
 }

@@ -3,28 +3,37 @@
 .produto-detalhes{
   align-items: center;
   display: flex;
-  padding: 4rem 9.5rem;
+  padding: 4rem 6.5rem;
 }
 
 .detalhes{
   display: flex;
   flex-direction: column;
-  margin-left: 16px;
+  margin-left: 1rem;
   justify-content: center;
   width: 560px;
 }
 
-.detalhes h2{
+.detalhes :first-child{
   font-size: 3.25em;
   font-weight: 500;
 }
 
 .detalhes .produto__preco{
-  line-height: 2;
+  margin: 0.5rem 0;
+}
+
+.detalhes__descricao{
+  font-weight: 400;
 }
 
 /* Todos os produtos
 ========================================================================== */
 .produtos__titulo button{
   width: 164px;
+}
+
+.produto__codigo{
+  font-weight: 500;
+  margin-bottom: 0;
 }
