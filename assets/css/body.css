@@ -12,7 +12,7 @@
 
 /* Estilos Padrão
 ========================================================================== */
-body{
+body {
   background: var(--produtos-bg);
   color: var(--texto-preto);
   font-family: "Raleway", sans-serif;
@@ -20,65 +20,70 @@ body{
   scroll-behavior: smooth;
 }
 
-input, textarea{
+input,
+textarea {
   border: none;
 }
 
-input::placeholder, textarea::placeholder{
+input::placeholder,
+textarea::placeholder {
   color: var(--input-placeholder);
   font-family: "Raleway", sans-serif;
   font-size: 1rem;
   font-weight: 400;
 }
 
-input:focus, textarea:focus{
+input:focus,
+textarea:focus {
   border-bottom: 1px solid var(--texto-azul);
 }
 
-textarea{
+textarea {
   height: 82px;
   margin-bottom: 1em;
   padding: 1rem 0.75rem;
 }
 
-p, h1, h4{
+p,
+h1,
+h4 {
   font-weight: bold;
 }
 
 /* Nav Search
 ========================================================================== */
-header{
+header {
   background-color: var(--bg-color);
 }
 
-.busca{
+.busca {
   align-items: center;
   display: flex;
   height: 115px;
   padding: 0 6.5em;
 }
 
-.busca__logo{
+.busca__logo {
   align-items: center;
   display: flex;
   flex: 1;
 }
 
-.busca__logo img{
+.busca__logo img {
   height: 29.17px;
   margin-right: 0.313em;
   width: 40.02px;
 }
 
-.busca__texto{
+.busca__texto {
   color: var(--texto-azul);
 }
 
-.busca__logo p{
+.busca__logo p {
   font-size: 1.125rem;
 }
 
-.busca__logo input{
+.busca__logo input {
   background: url('../images/lupa.png') no-repeat right;
   background-position-x: 360px;
   background-color: var(--input-busca-bg);
@@ -89,18 +94,18 @@ header{
   width: 393px;
 }
 
-.busca__logo input:focus{
+.busca__logo input:focus {
   border-bottom: none;
 }
 
-a{
+a {
   color: var(--texto-preto);
   font-weight: 500;
   margin-bottom: 24px;
   text-decoration: none;
 }
 
-button{
+button {
   background-color: var(--texto-azul);
   border: none;
   cursor: pointer;
@@ -111,7 +116,7 @@ button{
   height: 51px;
 }
 
-.login button{
+.login button {
   background: transparent;
   border: 1px solid var(--texto-azul);
   color: var(--texto-azul);
@@ -120,13 +125,13 @@ button{
 
 /* Banner Area
 ========================================================================== */
-.banner{
+.banner {
   background: url('../images/banner.png') center / cover no-repeat;
   display: flex;
   height: 352px;
 }
 
-.banner__titulo{
+.banner__titulo {
   color: var(--texto-branco);
   display: flex;
   flex-direction: column;
@@ -134,76 +139,76 @@ button{
   padding: 2em 6.5em;
 }
 
-.banner__titulo h1{
+.banner__titulo h1 {
   font-size: 3.25em;
   margin-bottom: 1rem;
 }
 
-.banner__titulo h4{
+.banner__titulo h4 {
   font-size: 1.375em;
   margin-bottom: 1rem;
 }
 
-.banner__titulo button{
+.banner__titulo button {
   width: 130px;
 }
 
 /* Produtos: Star Wars, Consoles, Diversos
 ========================================================================== */
-.todos-produtos{
+.todos-produtos {
   display: flex;
   flex-direction: column;
 }
 
-.produtos__titulo:first-child{
+.produtos__titulo:first-child {
   margin-top: 4rem;
 }
 
-.produtos__titulo{ 
+.produtos__titulo {
   align-items: center;
   display: flex;
   justify-content: space-between;
   padding: 0 6.5rem 1rem;
 }
 
-.produtos__titulo p{
+.produtos__titulo p {
   font-size: 2em;
 }
 
-.produtos__link p{
+.produtos__link p {
   color: var(--texto-azul);
   font-size: 1em;
 }
 
-.produtos__link img{
+.produtos__link img {
   margin-left: 0.75em;
 }
 
-.produtos{
+.produtos {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0 6.5rem 4rem;
 }
 
-.produto__info p{
+.produto__info p {
   margin-bottom: 0.5rem;
 }
 
-.produto__descricao{
+.produto__descricao {
   font-size: 0.875rem;
   font-weight: 500;
   margin: 0.5rem 0;
 }
 
-.produto__link{
+.produto__link {
   color: var(--texto-azul);
   font-weight: bold;
 }
 
 /* Contato
 ========================================================================== */
-.contato{
+.contato {
   background: var(--bg-contato);
   display: flex;
   height: 368px;
@@ -211,50 +216,50 @@ button{
   padding: 4em 6.5em;
 }
 
-.contato__logo{
+.contato__logo {
   align-items: center;
   display: flex;
   height: 50px;
 }
 
-.contato__texto{
+.contato__texto {
   color: var(--texto-azul);
   padding-left: 0.313em;
 }
 
-.contato__logo p{
+.contato__logo p {
   font-size: 1.125rem;
 }
 
-.contato__links{
+.contato__links {
   color: var(--texto-preto);
   display: flex;
   flex-direction: column;
 }
 
-.form{
+.form {
   display: flex;
   flex-direction: column;
   width: 560px;
 }
 
-.form p{
+.form p {
   margin-bottom: 0.5em;
 }
 
-.input-nome{
+.input-nome {
   height: 56px;
   margin-bottom: 1rem;
   padding: 0.5rem 0.75rem;
 }
 
-.form button{
+.form button {
   width: 165px;
 }
 
 /* Rodapé
 ========================================================================== */
-footer{
+footer {
   align-items: center;
   background: var(--bg-color);
   display: flex;
@@ -266,4 +271,77 @@ footer{
 
 footer p {
   font-weight: 500;
+}
+
+/* Media Queries Devices
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+
+  button {
+    height: 40px;
+  }
+
+  .busca {
+    height: 72px;
+  }
+
+  .busca__logo img {
+    height: 16.33px;
+    margin-right: 0.177em;
+    width: 22.74px;
+  }
+
+  .busca__logo p {
+    font-size: 0.875rem;
+  }
+
+  .login button {
+    width: 166px;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .busca{
+      background: url(../images/lupa.png) no-repeat right;
+      background-position-x: 95%;
+      padding: 0 1rem;
+    }
+
+    .busca__logo{
+      flex: none;
+    }
+
+    .busca__logo input {
+      display: none;
+    }
+
+    /* .busca__logo input{
+      display: block;
+    } */
+
+    .login button {
+      width: 133px;
+    }
+  }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+
+  .busca{
+    padding: 0 2rem;
+  }
+
+  .busca__logo input {
+    background-position-x: 256px;
+    width: 292px;
+  }
+
+  .busca__logo input::placeholder {
+    font-size: 0.875rem;
+  }
+
+
+
+
 }
