@@ -211,6 +211,7 @@ button {
 .contato {
   background: var(--bg-contato);
   display: flex;
+  /* flex-wrap: wrap; */
   height: 368px;
   justify-content: space-between;
   padding: 4rem 6.5rem;
@@ -381,5 +382,16 @@ footer p {
   .contato{
     padding: 2rem;
   }
+
+  /* .contato__logo{
+    width: 100%;
+  }
+
+  .form{
+    width: 70%;
+  }
   
+  .contato{
+    flex-direction: row-reverse;
+  } */
 }
