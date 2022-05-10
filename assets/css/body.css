@@ -201,7 +201,7 @@ button {
   margin: 0.5rem 0;
 }
 
-.produto__link p {
+.produto__link{
   color: var(--texto-azul);
   font-weight: bold;
 }
@@ -280,6 +280,7 @@ footer p {
 
   button {
     height: 40px;
+    width: 119px;
   }
 
   .busca {
@@ -300,13 +301,17 @@ footer p {
     width: 166px;
   }
 
-  .produtos__titulo p{
+  .produtos__titulo p {
     font-size: 1.375rem;
+  }
+
+  .produtos :nth-child(n+5) {
+    display: none;
   }
 
   @media only screen and (max-width: 600px) {
 
-    .busca{
+    .busca {
       background: url(../images/lupa.png) no-repeat right;
       background-position-x: 95%;
       padding: 0 1rem;
@@ -320,13 +325,56 @@ footer p {
       display: none;
     }
 
-    /* .busca__logo input{
-      display: block;
-    } */
-
     .login button {
       margin-left: 2.188rem;
       width: 133px;
+    }
+
+    .banner {
+      height: 192px;
+    }
+
+    .banner__titulo {
+      padding: 1rem;
+    }
+
+    .banner__titulo h1 {
+      font-size: 1.375rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .banner__titulo h4 {
+      font-size: 0.875rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .produtos__titulo {
+      padding: 1rem;
+    }
+
+    .produtos__titulo:first-child {
+      margin-top: 0;
+    }
+
+    .produtos__link p {
+      font-size: 0.875rem;
+    }
+
+    .produtos__link img {
+      margin-left: 0.5rem;
+      width: 10.67px;
+    }
+
+    .produtos{
+      padding: 0 1rem 2rem;
+    }
+
+    .produto__info img{
+      width: 156px;
+    }
+
+    .produtos :nth-last-child(n+5) {
+      margin-bottom: 1rem;
     }
   }
 
@@ -334,11 +382,11 @@ footer p {
 
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
 
-  .busca{
+  .busca {
     padding: 0 2rem;
   }
 
-  .busca__logo input{
+  .busca__logo input {
     background-position-x: 256px;
     width: 292px;
   }
@@ -346,8 +394,8 @@ footer p {
   .busca__logo input::placeholder {
     font-size: 0.875rem;
   }
-  
-  .banner__titulo{
+
+  .banner__titulo {
     padding: 2rem;
   }
 
@@ -359,39 +407,28 @@ footer p {
     margin-top: 2rem;
   }
 
-  .produtos__titulo{
+  .produtos__titulo {
     padding: 0 2rem 1rem;
   }
 
-  .produtos__link p{
+  .produtos__link p {
     font-size: 1rem;
   }
 
-  .produtos{
+  .produtos {
     padding: 0 2rem 4rem;
   }
 
-  .produtos :nth-child(n+5){
-    display: none;
+  .produto__info img{
+    width: 164px;
   }
 
-  .todos-produtos :nth-child(6){
+  .todos-produtos :nth-child(6) {
     padding-bottom: 2rem;
   }
 
-  .contato{
+  .contato {
     padding: 2rem;
   }
 
-  /* .contato__logo{
-    width: 100%;
-  }
-
-  .form{
-    width: 70%;
-  }
-  
-  .contato{
-    flex-direction: row-reverse;
-  } */
 }
