@@ -30,3 +30,31 @@
   font-weight: 600;
   height: 62px;
 }
+
+/* Media Queries Devices
+   ========================================================================== */
+   @media only screen and (max-width: 1024px){
+
+    .form-login button {
+      align-self: center;
+      font-size: 0.875rem;
+      height: 40px;
+      width: 109px;
+    }
+
+    .input-email, .input-password {
+      height: 41px;
+      width: 275px;
+  }
+
+   }
+  
+   /* @media only screen and (max-width: 600px){
+
+
+   }
+
+   @media only screen and (min-width: 600px) and (max-width: 1024px){
+
+
+   } */
