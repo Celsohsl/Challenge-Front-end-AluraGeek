@@ -6,7 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AluraGeek</title>
+  <link rel="shortcut icon" href="./assets/images/commerce.png" type="image/x-icon">
   <link rel="stylesheet" href="./assets/css/body.css">
+  <link rel="stylesheet" href="./assets/css/base.css">
 </head>
 
 <body>
@@ -30,7 +32,7 @@
       <div class="banner__titulo">
         <h1>Maio Promocional</h1>
         <h4>Produtos selecionados com 33% de desconto</h4>
-        <button>Ver Consoles</button>
+        <a href="#console"><button>Ver Consoles</button></a>
       </div>
     </section>
 
@@ -40,7 +42,7 @@
       <div class="produtos__titulo">
         <p>Star Wars</p>
         <div class="produtos__link">
-          <p>Ver tudo <img src="./assets/images/Vector.png" alt="seta azul para direita"></p>
+          <a href="todos-produtos.html"><p>Ver tudo <img src="./assets/images/Vector.png" alt="seta azul para direita"></p></a>
         </div>
       </div>
       <section class="produtos">
@@ -48,7 +50,7 @@
           <img src="./assets/images/canecasw.png" alt="caneca branca do filme star wars">
           <p class="produto__descricao">Produto XYZ</p>
           <p class="produto__preco">R$ 60,00</p>
-          <a href="#" class="produto__link">Ver produto</a>
+          <a href="produtos-similares.html" class="produto__link">Ver produto</a>
         </div>
         <div class="produto__info">
           <img src="./assets/images/legosw.png" alt="lego preto do filme star wars">
@@ -84,9 +86,9 @@
 
       <!-- Produtos Consoles -->
       <div class="produtos__titulo">
-        <p>Consoles</p>
+        <p id="console">Consoles</p>
         <div class="produtos__link">
-          <p>Ver tudo <img src="./assets/images/Vector.png" alt="seta azul para direita"></p>
+          <a href="todos-produtos.html"><p>Ver tudo <img src="./assets/images/Vector.png" alt="seta azul para direita"></p></a>
         </div>
       </div>
 
@@ -133,7 +135,7 @@
       <div class="produtos__titulo">
         <p>Diversos</p>
         <div class="produtos__link">
-          <p>Ver tudo <img src="./assets/images/Vector.png" alt="seta azul para direita"></p>
+          <a href="todos-produtos.html"><p>Ver tudo <img src="./assets/images/Vector.png" alt="seta azul para direita"></p></a>
         </div>
       </div>
 
@@ -180,18 +182,20 @@
 
   <!-- Contato -->
   <section class="contato">
-    <div class="contato__logo">
-      <img src="./assets/images/logo.png" alt="logo azul controle de video game">
-      <p class="contato__texto">Alura</p>
-      <p>Geek</p>
-    </div>
-    <div class="contato__links">
-      <a href="#">Quem somos nós</a>
-      <a href="#">Política de Privacidade</a>
-      <a href="#">Programa fidelidade</a>
-      <a href="#">Nossas lojas</a>
-      <a href="#">Quero ser franqueado</a>
-      <a href="E">Anuncie aqui</a>
+    <div class="contato-destaque">
+      <div class="contato__logo">
+        <img src="./assets/images/logo.png" alt="logo azul controle de video game">
+        <p class="contato__texto">Alura</p>
+        <p>Geek</p>
+      </div>
+      <div class="contato__links">
+        <a href="#">Quem somos nós</a>
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Programa fidelidade</a>
+        <a href="#">Nossas lojas</a>
+        <a href="#">Quero ser franqueado</a>
+        <a href="E">Anuncie aqui</a>
+      </div>
     </div>
     <div class="form">
       <p>Fale conosco</p>
