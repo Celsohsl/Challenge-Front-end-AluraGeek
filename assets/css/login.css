@@ -1,5 +1,6 @@
 /* Login 
 ========================================================================== */
+
 .login-area{
   align-items: center;
   display: flex;
@@ -33,7 +34,7 @@
 
 /* Media Queries Devices
    ========================================================================== */
-   @media only screen and (max-width: 1024px){
+   @media only screen and (max-width: 900px){
 
     .form-login button {
       align-self: center;
@@ -49,12 +50,3 @@
 
    }
   
-   /* @media only screen and (max-width: 600px){
-
-
-   }
-
-   @media only screen and (min-width: 600px) and (max-width: 1024px){
-
-
-   } */

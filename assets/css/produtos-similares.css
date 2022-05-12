@@ -1,12 +1,12 @@
 /* Produtos similares
 ========================================================================== */
-.produto-detalhes{
+.produto-detalhes {
   align-items: center;
   display: flex;
   padding: 4rem 6.5rem;
 }
 
-.detalhes{
+.detalhes {
   display: flex;
   flex-direction: column;
   margin-left: 1rem;
@@ -14,26 +14,74 @@
   width: 560px;
 }
 
-.detalhes :first-child{
+.detalhes :first-child {
   font-size: 3.25em;
   font-weight: 500;
 }
 
-.detalhes .produto__preco{
+.detalhes .produto__preco {
   margin: 0.5rem 0;
 }
 
-.detalhes__descricao{
+.detalhes__descricao {
   font-weight: 400;
 }
 
 /* Todos os produtos
 ========================================================================== */
-.produtos__titulo button{
+.produtos__titulo button {
   width: 164px;
 }
 
-.produto__codigo{
+.produtos__titulo a{
+  margin-bottom: 0;
+}
+
+.produto__codigo {
   font-weight: 500;
   margin-bottom: 0;
+}
+
+
+/* Media Queries Devices
+   ========================================================================== */
+
+@media only screen and (max-width: 600px) {
+  .produto-detalhes img {
+    width: 100%;
+  }
+
+  .produto-detalhes {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .detalhes {
+    margin-left: 0;
+    padding: 1rem;
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 900px) {
+  .detalhes :first-child {
+    font-size: 1.375rem;
+  }
+
+  .detalhes__descricao{
+    font-size: 0.875rem;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .produto-detalhes{
+    align-items: flex-start;
+    padding: 2rem 2rem 4rem;
+  }
+
+  .produto-detalhes img {
+    width: 254px;
+    height: 157px;
+  }
 }

@@ -75,6 +75,10 @@ header {
   width: 40.02px;
 }
 
+.busca__logo a {
+  display: contents;
+}
+
 .busca__texto {
   color: var(--texto-azul);
 }
@@ -201,7 +205,7 @@ button {
   margin: 0.5rem 0;
 }
 
-.produto__link{
+.produto__link {
   color: var(--texto-azul);
   font-weight: bold;
 }
@@ -209,6 +213,7 @@ button {
 /* Contato
 ========================================================================== */
 .contato {
+  align-items: flex-start;
   background: var(--bg-contato);
   display: flex;
   /* flex-wrap: wrap; */
@@ -217,10 +222,13 @@ button {
   padding: 4rem 6.5rem;
 }
 
+.contato-destaque {
+  display: contents;
+}
+
 .contato__logo {
   align-items: center;
   display: flex;
-  height: 50px;
 }
 
 .contato__texto {
@@ -276,7 +284,7 @@ footer p {
 
 /* Media Queries Devices
    ========================================================================== */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 900px) {
 
   button {
     height: 40px;
@@ -365,22 +373,44 @@ footer p {
       width: 10.67px;
     }
 
-    .produtos{
+    .produtos {
       padding: 0 1rem 2rem;
     }
 
-    .produto__info img{
+    .produto__info img {
       width: 156px;
     }
 
     .produtos :nth-last-child(n+5) {
       margin-bottom: 1rem;
     }
+
+    .contato {
+      align-items: center;
+      flex-direction: column;
+      height: 100%;
+      padding: 1rem;
+    }
+
+    .contato__logo {
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+
+    .contato__links {
+      text-align: center;
+    }
+
+    .form {
+      margin-top: 2rem;
+      width: 100%;
+    }
+
   }
 
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
+@media only screen and (min-width: 601px) and (max-width: 900px) {
 
   .busca {
     padding: 0 2rem;
@@ -419,7 +449,7 @@ footer p {
     padding: 0 2rem 4rem;
   }
 
-  .produto__info img{
+  .produto__info img {
     width: 164px;
   }
 
@@ -429,6 +459,18 @@ footer p {
 
   .contato {
     padding: 2rem;
+  }
+
+  .contato__logo {
+    margin-bottom: 1rem;
+  }
+
+  .contato-destaque {
+    display: block;
+  }
+
+  .form {
+    width: 434px;
   }
 
 }
