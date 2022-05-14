@@ -244,7 +244,7 @@ button {
   flex-direction: column;
 }
 
-.form {
+.contato-form{
   display: flex;
   flex-direction: column;
   width: 560px;
