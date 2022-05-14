@@ -22,7 +22,7 @@
         <input type="text" class="busca__barra" placeholder="O que deseja encontrar?">
       </div>
       <div class="login">
-        <button type="submit" data-login-button>Login</button>
+        <button data-login-button>Login</button>
       </div>
     </nav>
   </header>
@@ -42,7 +42,9 @@
       <div class="produtos__titulo">
         <p>Star Wars</p>
         <div class="produtos__link">
-          <a href="todos-produtos.html"><p>Ver tudo <img src="./assets/images/Vector.png" alt="seta azul para direita"></p></a>
+          <a href="todos-produtos.html">
+            <p>Ver tudo <img src="./assets/images/Vector.png" alt="seta azul para direita"></p>
+          </a>
         </div>
       </div>
       <section class="produtos">
@@ -88,7 +90,9 @@
       <div class="produtos__titulo">
         <p id="console">Consoles</p>
         <div class="produtos__link">
-          <a href="todos-produtos.html"><p>Ver tudo <img src="./assets/images/Vector.png" alt="seta azul para direita"></p></a>
+          <a href="todos-produtos.html">
+            <p>Ver tudo <img src="./assets/images/Vector.png" alt="seta azul para direita"></p>
+          </a>
         </div>
       </div>
 
@@ -135,7 +139,9 @@
       <div class="produtos__titulo">
         <p>Diversos</p>
         <div class="produtos__link">
-          <a href="todos-produtos.html"><p>Ver tudo <img src="./assets/images/Vector.png" alt="seta azul para direita"></p></a>
+          <a href="todos-produtos.html">
+            <p>Ver tudo <img src="./assets/images/Vector.png" alt="seta azul para direita"></p>
+          </a>
         </div>
       </div>
 
@@ -199,9 +205,11 @@
     </div>
     <div class="form">
       <p>Fale conosco</p>
-      <input type="text" name="Nome" id="nome" class="input-nome" placeholder="Nome">
-      <textarea name="mensagem" id="msg" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
-      <button>Enviar mensagem</button>
+      <form action="" class="contato-form">
+        <input type="text" name="Nome" id="nome" class="input-nome" placeholder="Nome" required>
+        <textarea name="mensagem" id="msg" cols="30" rows="10" placeholder="Escreva sua mensagem" required></textarea>
+        <button type="menu">Enviar mensagem</button>
+      </form>
     </div>
   </section>
 
@@ -211,6 +219,7 @@
     <span>&copy; 2022</span>
   </footer>
   <script src="./assets/js/login.js"></script>
+  <script src="./assets/js/contatoForm.js"></script>
 </body>
 
 </html>
