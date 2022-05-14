@@ -7,7 +7,6 @@
 @import url(base.css);
 @import url(login.css);
 @import url(produtos-similares.css);
-@import url(todos-produtos.css);
 @import url(adicionar-produto.css);
 
 /* Estilos Padrão
@@ -216,7 +215,6 @@ button {
   align-items: flex-start;
   background: var(--bg-contato);
   display: flex;
-  /* flex-wrap: wrap; */
   height: 368px;
   justify-content: space-between;
   padding: 4rem 6.5rem;
@@ -320,7 +318,7 @@ footer p {
   @media only screen and (max-width: 600px) {
 
     .busca {
-      background: url(../images/lupa.png) no-repeat right;
+      background: url(../images/lupa-escuro.png) no-repeat right;
       background-position-x: 95%;
       padding: 0 1rem;
     }
@@ -357,6 +355,7 @@ footer p {
     }
 
     .produtos__titulo {
+      /* display: block; */
       padding: 1rem;
     }
 
