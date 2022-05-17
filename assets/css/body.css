@@ -280,6 +280,29 @@ footer p {
   font-weight: 500;
 }
 
+/* Input e textarea alertas de validação
+   ========================================================================== */
+.contato-form--invalido .input-nome , .contato-form--invalido textarea{
+  border: 1px solid #df2525;
+  border-radius: 8px;
+  margin-bottom: 0;
+}
+
+.contato-form--invalido .input-nome::placeholder, .contato-form--invalido textarea::placeholder{
+  color: #df2525;
+}
+
+.input-mensagem-alerta{
+  display: none;
+}
+
+.contato-form--invalido .input-mensagem-alerta {
+  color:#df2525;
+  display: block;
+  padding: 0rem 0.5rem 0.8rem;
+}
+
+
 /* Media Queries Devices
    ========================================================================== */
 @media only screen and (max-width: 900px) {
