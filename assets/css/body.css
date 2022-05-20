@@ -292,11 +292,11 @@ footer p {
   color: #df2525;
 }
 
-.input-mensagem-alerta{
+.erro{
   display: none;
 }
 
-.contato-form--invalido .input-mensagem-alerta {
+.contato-form--invalido .erro {
   color:#df2525;
   display: block;
   padding: 0rem 0.5rem 0.8rem;
