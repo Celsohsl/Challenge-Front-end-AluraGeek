@@ -282,24 +282,40 @@ footer p {
 
 /* Input e textarea alertas de validação
    ========================================================================== */
-.contato-form--invalido .input-nome , .contato-form--invalido textarea{
-  border: 1px solid #df2525;
+
+.input-erro{
+  border: 1px solid #ca5858;
   border-radius: 8px;
-  margin-bottom: 0;
 }
 
-.contato-form--invalido .input-nome::placeholder, .contato-form--invalido textarea::placeholder{
-  color: #df2525;
+.input-erro:focus{
+  border-bottom: 1px solid #ca5858;
 }
 
-.erro{
-  display: none;
+.input-erro::placeholder{
+  color: #ca5858;
 }
 
-.contato-form--invalido .erro {
-  color:#df2525;
-  display: block;
-  padding: 0rem 0.5rem 0.8rem;
+.input-erro{
+  background: url(../images/imagens-form-validation/error-icon.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+
+.input-sucesso{
+  border: 1px solid #308642;
+  border-radius: 8px;
+}
+
+.input-sucesso:focus{
+  border-bottom: 1px solid #308642;
+}
+
+.input-sucesso{
+  background: url(../images/imagens-form-validation/success-icon.svg);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 
