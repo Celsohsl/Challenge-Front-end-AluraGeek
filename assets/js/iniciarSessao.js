@@ -39,8 +39,25 @@
       senha.classList.add('input-sucesso');
     }
 
+    if (email.value == 'teste@email.com' && senha.value == '123456') {
+      window.location.href='./adicionar-produto.html'
+    }
+
   }
 
   const botaologin = document.querySelector('[data-form-button]');
   botaologin.addEventListener('click', (verificar));
 })();
+
+// const botaoAdicionar = document.querySelector("#logar");
+
+// botaoAdicionar.addEventListener("click", function(event) {
+
+//    const campoUsuario = document.getElementById('usuario').value;
+//    const campoSenha = document.getElementById('senha').value;
+          
+//    if (campoUsuario == "alura@email.com" && campoSenha == "123456") 
+//        window.location.href="menu.html";
+//    else
+//        alert("Dados incorretos! Por favor, tente novamente.");     
+// });
