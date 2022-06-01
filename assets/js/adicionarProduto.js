@@ -4,7 +4,7 @@
   function verificar() {
     window.event.preventDefault();
 
-    if (produto.value == '') {
+    if (produto.value === '') {
       produto.classList.add('input-erro');
       produto.focus();
       Swal.fire({
@@ -30,13 +30,19 @@
       });
       return false;
 
-    // } else if (senha.value.length >= 7) {
-    //   Swal.fire('Digite no máximo 6 caracteres');
-    //   return false;
+    } else if (!isNaN(preco.value)==false) {
+      preco.focus();
+      preco.classList.add('input-erro');
+      Swal.fire({
+        title: 'Digite somente números.',
+        icon: 'error',
+        confirmButtonText: 'Ok'
+      });
+      return false;
     } else {
-      preco.classList.add('input-sucesso');
+      preco.classList.add('input-sucesso')
     }
-
+    
     if (descricao.value === '') {
       descricao.focus();
       descricao.classList.add('input-erro');
@@ -58,3 +64,5 @@
   const botaologin = document.querySelector('[data-adicionar-botao]');
   botaologin.addEventListener('click', (verificar));
 })();
+
+
