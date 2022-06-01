@@ -45,6 +45,16 @@
   font-size: 0.875rem;
 }
 
+.input-nome::-webkit-outer-spin-button,
+.input-nome::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-nome[type=number] {
+  -moz-appearance: textfield;
+}
+
 .btn__imagem {
   background: transparent;
   border: 1px solid var(--texto-azul);
