@@ -41,6 +41,25 @@
   width: 282px;
 }
 
+.imagem {
+  background-image: url(../images/Vector-img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 20%;
+}
+
+.imagem img  {
+  border-radius: 5px;
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+}
+
+.imagem.active{
+  border: 1px solid var(--texto-azul);
+  background-color: var(--bg-contato);
+}
+
 .imagem p {
   font-size: 0.875rem;
 }
@@ -70,35 +89,33 @@
     font-size: 1.375rem;
   }
 
-  .form-admin button{
+  .form-admin button {
     height: 51px;
     width: 100%;
   }
 
-  .imagem-area .imagem p{
+  .imagem-area .imagem p {
     font-size: 0.875rem;
   }
 
 }
 
 @media only screen and (max-width: 600px) {
-  .form-admin{
+  .form-admin {
     margin: 0;
     padding: 1rem;
   }
 
-  .imagem{
+  .imagem {
     width: 100%;
   }
 
-  .imagem{
-    background-image :url(../images/Vector-mais.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position-y: 20%;
+  .imagem {
+    background-image: url(../images/Vector-mais.png);
   }
 
-  .imagem-area :nth-last-child(2), .btn__imagem{
+  .imagem-area :nth-last-child(2),
+  .btn__imagem {
     display: none;
   }
 
@@ -106,14 +123,14 @@
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
-  
-  .form-admin{
+
+  .form-admin {
     margin: 0;
     padding: 2rem;
     width: 100%;
   }
 
-  .imagem-area .btn__imagem{
+  .imagem-area .btn__imagem {
     width: 191px;
   }
 
