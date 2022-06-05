@@ -49,10 +49,8 @@
 }
 
 .imagem img  {
-  border-radius: 5px;
   height: 100%;
   object-fit: contain;
-  width: 100%;
 }
 
 .imagem.active{
@@ -62,6 +60,10 @@
 
 .imagem p {
   font-size: 0.875rem;
+}
+
+#picture[src=''] {
+  opacity: 0;
 }
 
 .input-nome::-webkit-outer-spin-button,
