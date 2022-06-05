@@ -1,4 +1,4 @@
-/* Adicionar imagem ao campo de arrastar e soltar
+/* Adicionar imagem ao arrastar e soltar
    ========================================================================== */
 const dropZone = document.querySelector(".imagem"),
   dragText = dropZone.querySelector("p");
@@ -44,3 +44,33 @@ function showFile() {
   }
 
 }
+
+/* Adicionar imagem através do botão
+   ========================================================================== */
+
+const botaoimagem = document.querySelector('.btn__imagem');
+botaoimagem.addEventListener('click', (e) => {
+  e.preventDefault();
+
+  function onClickHandler() {
+    const el = window._protected_reference = document.createElement('INPUT');
+    el.type = "file";
+    el.accept = "image/*";
+    el.multiple = "multiple";
+
+    el.addEventListener('change', function () {
+      if (el.files.length) {
+        document.getElementById('picture').src = URL.createObjectURL(el.files[0]);
+        dropZone.classList.add("active");
+        dragText.remove('p');
+      }
+    });
+
+    el.click(); 
+  }
+
+  onClickHandler();
+
+});
+
+
