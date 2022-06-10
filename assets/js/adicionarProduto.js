@@ -30,7 +30,7 @@
       });
       return false;
 
-    } else if (!isNaN(preco.value)==false) {
+    } else if (!isNaN(preco.value) == false) {
       preco.focus();
       preco.classList.add('input-erro');
       Swal.fire({
@@ -40,9 +40,9 @@
       });
       return false;
     } else {
-      preco.classList.add('input-sucesso')
+      preco.classList.add('input-sucesso');
     }
-    
+
     if (descricao.value === '') {
       descricao.focus();
       descricao.classList.add('input-erro');
@@ -59,11 +59,15 @@
       descricao.classList.add('input-sucesso');
     }
 
-  }
+  };
 
   const botaologin = document.querySelector('[data-adicionar-botao]');
   botaologin.addEventListener('click', (verificar));
 })();
 
+export{
+  verificar,
+  botaologin
+} 
 
 

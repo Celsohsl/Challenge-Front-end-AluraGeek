@@ -48,12 +48,12 @@
   background-position-y: 20%;
 }
 
-.imagem img  {
+.imagem img {
   height: 100%;
   object-fit: contain;
 }
 
-.imagem.active{
+.imagem.active {
   border: 1px solid var(--texto-azul);
   background-color: var(--bg-contato);
 }
