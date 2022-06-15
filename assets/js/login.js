@@ -45,7 +45,7 @@
       senha.classList.add('input-sucesso');
     }
 
-    if (email.value === 'teste@email.com' && senha.value === '123456'); {
+    if (email.value === 'teste@email.com' && senha.value === '000000'); {
       window.location.href='./adicionar-produto.html';
     }
 
