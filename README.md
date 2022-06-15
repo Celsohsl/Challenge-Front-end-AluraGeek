@@ -35,10 +35,10 @@ A empresa AluraGeek está precisando trazer mais clientes e aumentar suas vendas
 - Estarei adicionando as novas funcionalidades ao projeto aos poucos. 
 
 #
-<!-- <div align="center">
-  <img src=""/>
+<div align="center">
+  <img src="https://github.com/Celsohsl/Challenge-Front-end-AluraGeek/blob/main/assets/images/readme-img/badge_alurageek300x300.png"/>
   <h2 align="center">Badge conquistada com esse projeto.</h2>
-</div -->
+</div
  
 #
 ### Links Úteis:
