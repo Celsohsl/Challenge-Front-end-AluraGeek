@@ -1,16 +1,16 @@
-<h1 align ="center">Challenge Front-end AluraGeek, Oracle ONE + Alura.(Em desenvolvimento)</h1>
+<h1 align ="center">Challenge Front-end AluraGeek, Oracle ONE + Alura.</h1>
 
 
 <div align ="center">
  <img  src="https://github.com/Celsohsl/Challenge-Front-end-Portfolio/blob/main/assets/images/readme-img/banner-topo.jpg" />
 </div> 
 
-<!-- <h2 align ="center">Screenshot</h2> -->
+<h2 align ="center">Screenshot</h2>
 
 
-<!-- <div align ="center">
- <img src="" />
-</div> -->
+<div align ="center">
+ <img src="https://github.com/Celsohsl/Challenge-Front-end-AluraGeek/blob/main/assets/images/AluraGeekReadme_home.html.png" />
+</div>
  
  
 
@@ -30,9 +30,13 @@ A empresa AluraGeek está precisando trazer mais clientes e aumentar suas vendas
 - Menu administrador para eles conseguirem adicionar, editar, buscar ou eliminar produtos da loja.
 - É muito importante que o site seja responsivo, para dar aos clientes a facilidade de comprar através de dispositivos mobiles.
 
+**Observações:**
+- Na página de login usar email: teste@email.com e senha: 000000; Por enquanto isto é apenas como teste de estudo, para ser direcionado para a página de adicionar produto, não está sendo salvo nenhum dado em localStorage e nem em banco de dados. 
+- Estarei adicionando as novas funcionalidades ao projeto aos poucos. 
+
 #
 <!-- <div align="center">
-  <img src="https://github.com/Celsohsl/Challenge-Front-end-Portfolio/blob/main/assets/images/readme-img/badge-portfolio300x300.png"/>
+  <img src=""/>
   <h2 align="center">Badge conquistada com esse projeto.</h2>
 </div -->
  
