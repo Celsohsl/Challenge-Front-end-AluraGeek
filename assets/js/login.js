@@ -1,6 +1,6 @@
 /* Botão de Login
    ========================================================================== */
-   let botaologin = document.querySelector('[data-login-button]');
+   const botaologin = document.querySelector('[data-login-button]');
    botaologin.addEventListener('click', () => window.location.href = "./login.html");
 
 /* Validando formulario de iniciar sessão
@@ -51,6 +51,6 @@
 
   }
 
-  botaologin = document.querySelector('[data-form-button]');
-  botaologin.addEventListener('click', (verificar));
+  const btnEntrar = document.querySelector('[data-form-button]');
+  btnEntrar.addEventListener('click', (verificar));
 })();

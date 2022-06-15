@@ -61,13 +61,10 @@
 
   };
 
-  const botaologin = document.querySelector('[data-adicionar-botao]');
-  botaologin.addEventListener('click', (verificar));
+  const btnadicionar = document.querySelector('[data-adicionar-botao]');
+  btnadicionar.addEventListener('click', (verificar));
 })();
 
-export{
-  verificar,
-  botaologin
-} 
+
 
 
