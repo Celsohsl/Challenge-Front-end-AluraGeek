@@ -9,7 +9,7 @@
 
 
 <div align ="center">
- <img src="https://github.com/Celsohsl/Challenge-Front-end-AluraGeek/blob/main/assets/images/AluraGeekReadme_home.html.png" />
+ <img src="https://github.com/Celsohsl/Challenge-Front-end-AluraGeek/blob/main/assets/images/AluraGeekReadme_index.html.png" />
 </div>
  
  
